@@ -244,6 +244,43 @@ nav .container {
 
 /* end home four section  */
 
+/* start home-five-section  */
+.home-five-section{
+    padding: 50px 0;
+}
+.home-five-section .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+.home-five-section .home-five-section-list-group h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.home-five-section .home-five-section-list-group h1 span{
+    color: #B8548C;
+}
+.home-five-section .home-five-section-list-group p span{
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.home-five-section .home-five-section-list-group p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.home-five-section .home-five-section-images{
+    background-color: #FFEDF7;
+    border-radius: 15px;
+}
+.home-five-section .home-five-section-images img{
+    width: 100%;
+}
+/* end home-five-section  */
+
 
 @media only screen and (max-width: 1362px) {
     .nav-toggler-icon {
@@ -356,6 +393,9 @@ nav .container {
     .home-four-section-all-frame img {
         width: 100%;
     }
+    .home-five-section .home-five-section-list-group h1{
+        font-size: 25px;
+    }
 }
 @media only screen and (max-width: 904px) {
     .home-third-section .home-third-section-card h1 {
@@ -417,6 +457,15 @@ nav .container {
         padding: 10px;
         font-size: 15px;
     }
+    .home-five-section .home-five-section-list-group h1{
+        font-size: 20px;
+    }
+    .home-five-section .home-five-section-list-group p span{
+        font-size: 18px;
+    }
+    .home-five-section .home-five-section-list-group p{
+        font-size: 16px;
+    }
 }
 @media only screen and (max-width: 630px) {
     .home .container .first-section {
@@ -444,6 +493,12 @@ nav .container {
 
     .home .container .first-section .first-section-image img {
         width: 100%;
+    }
+    .home-five-section .container{
+        display: block;
+    }
+    .home-five-section .home-five-section-list-group{
+        margin-bottom: 40px;
     }
 }
 
@@ -501,5 +556,12 @@ nav .container {
     .home-four-section .container .button a{
         padding: 10px;
         font-size: 11px;
+    }
+    .home-five-section .home-five-section-list-group h1{
+        font-size: 14px;
+       text-align: center;
+    }
+    .home-five-section .home-five-section-list-group p{
+        font-size: 14px;
     }
 }
